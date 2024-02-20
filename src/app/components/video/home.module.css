@@ -1,0 +1,39 @@
+.videoContainer{
+  position: relative;
+  height: 100vh;
+  width:100%;
+}
+
+.videoContainer video {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  left:0;
+  object-fit: cover;
+  z-index: 0;
+}
+
+.videoButton{
+  z-index: 1;
+  position: absolute;
+  bottom:3%;
+  left:0;
+  right:0;
+  transform: rotateZ(90deg);
+  margin-left:auto;
+  margin-right:auto;
+  width:150px;
+}
+
+
+@media (max-width: 900px) {
+  .videoButton{
+    width:120px;
+  }
+  .videoButton{
+    bottom:28%;
+  }
+  .videoContainer{
+    height:450px;
+  }
+}

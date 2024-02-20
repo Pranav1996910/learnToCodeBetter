@@ -1,0 +1,49 @@
+.authenticationButtons{
+  display: flex;
+  width:200px;
+}
+
+.navbarContainer{
+  width: 100%;
+  position:absolute;
+  top:0;
+  left:0;
+  height: 100px;
+  background: transparent!important;
+  z-index:1!important;
+}
+
+.navLinkContainer{
+  display: flex;
+}
+
+.navLink{
+  color:white;
+  padding: 0 10px;
+  transition-property: zoom;
+  transition-duration: 1s;
+  transition-delay: .5s;
+}
+
+.navLink:hover{
+  color:white;
+  zoom: 1.1;
+  font-weight:bold;
+}
+
+.burgerMenu{
+  display: none;
+  text-align: center;
+}
+
+@media (max-width: 992px){
+  .burgerMenu{
+    display: inline-flex;
+  }
+  .authenticationButtons{
+    display: none;
+  }
+  .navLink{
+    display: none;
+  }
+}

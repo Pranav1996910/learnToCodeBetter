@@ -1,0 +1,190 @@
+.videoButton{
+  width: fit-content;
+  background-color: #00ff0d1a;
+  border-color: #00FF0C;
+  color: #00FF0C;
+  display: flex;
+  justify-content: center;
+  padding-right:10px;
+  border-radius: 25px;
+}
+
+.videoButton:hover{
+  border: 2px solid;
+} 
+.introCenterMainDiv{
+  position: absolute;
+  display: flex;
+  width:800px;
+  color:#89CFF0;
+  margin: auto;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.introCenterMain{
+  height: 100%;
+}
+.experienceMain{
+  display:grid;
+  grid-template-areas:
+    'firstExperience firstExperience secondExperience secondExperience thirdExperience thirdExperience'
+    '. fourthExperience fourthExperience fifthExperience fifthExperience .';
+  width:80%;
+  margin:auto;
+}
+.projectsLaptops{
+  display:flex;
+  width:80%;
+  margin:auto;
+  position:relative;
+}
+.projectsBackgroundLaptop{
+  width:40%;
+}
+.projectsForegroundLaptopMain{
+  width:20%;
+  position:relative;
+}
+.projectsForegroundLaptop{
+  position:absolute;
+  width:100%;
+  bottom:0;
+  top:0;
+
+}
+.experienceTitle{
+  display: flex;
+  font-size: 50px;
+  padding-bottom:30px;
+  color:#89CFF0;
+  font-weight: bold;
+  width:max-content;
+  margin:auto;
+  text-align: center;
+}
+.experience1{
+  grid-area: firstExperience;
+  margin-top:20px;
+}
+.experience2{
+  grid-area: secondExperience;
+  margin-top:20px;
+}
+.experience3{
+  grid-area: thirdExperience;
+  margin-top:20px;
+}
+.experience4{
+  grid-area: fourthExperience;
+  margin-top:40px;
+}
+.experience5{
+  grid-area: fifthExperience;
+  margin-top:40px;
+}
+.introFirstLine{
+  display: flex;
+  font-size: 50px;
+  font-weight: bold;
+}
+.introSecondLine{
+  display:flex;
+  justify-content: space-around;
+  text-align: justify;
+  font-size:20px;
+  font-weight: 400;
+}
+.wavingIcon{
+  width:55px;
+  height:55px;
+}
+.introAvatarMain{
+  position:relative;
+  margin-left:auto;
+  width:300px;
+  height:100%;
+}
+.introAvatarCircle{
+  position: absolute;
+  top:-80px;
+  left:0;
+  height:200px;
+  width:200px;
+  background-color: rgb(57, 130, 159);
+  border-radius: 100%;
+}
+.languagesIcon{
+  width:40px;
+  height:40px;
+  margin:10px 10px;
+  transition: transform .5s ease;
+  cursor: pointer;
+}
+.languagesIcon:hover{
+  transform: scale(1.2);
+}
+.iconsMain{
+  margin-top:10px;
+  display: flex;
+
+}
+
+.buttonArrow{
+  animation: MoveUpDown 1s linear infinite;
+  font-size: 25px;
+  width: 50px;
+}
+
+@keyframes MoveUpDown {
+  0%, 100% {
+    bottom: 0;
+  }
+  50% {
+    padding-left: 20px;
+  }
+}
+
+@media (max-width: 900px) {
+  .videoButton{
+    font-size:14px;
+    padding: 5px 10px;
+  }
+}
+
+
+/* All the snapping stuff */
+.scroll-container {
+  height: 100vh;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+  position: relative;
+}
+.absoluteTest {
+  position: fixed;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.section {
+  height: 100vh;
+  scroll-snap-align: center;
+}
+
+/* Other styles */
+.section {
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: darkorchid;
+}
+
+.section:nth-child(2n) {
+  background-color: turquoise;
+}
+
+.section:nth-child(3n) {
+  background-color: tomato;
+}
