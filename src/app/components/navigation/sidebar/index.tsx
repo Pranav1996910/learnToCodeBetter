@@ -28,7 +28,7 @@ const Sidebar = ({
                 </button>
 
                 <ul className="sidebar-nav text-center text-white leading-relaxed text-xl">
-                    <li>
+                    {/* <li>
                         <Link href="/about" onClick={toggle}><p>About Us</p></Link>
                     </li>
                     <li>
@@ -42,7 +42,7 @@ const Sidebar = ({
                     </li>
                     <li>
                         <Link href="/register" onClick={toggle}><p>Sign up</p></Link>
-                    </li>
+                    </li> */}
                 </ul>
             </div>
         </>

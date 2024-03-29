@@ -1,21 +1,142 @@
+.bannerContainer{
+  position: relative;
+  height: 100vh;
+  width:80%;
+  margin: auto;
+}
+.coursesButton{
+  color: white;
+  background: #89CFF0;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: 700;
+  margin: 30px 0;
+}
+.coursesButton:hover{
+  color: #89CFF0;
+  background: white;
+}
+.bannerTitle{
+  display: flex;
+  font-size: 50px;
+  padding-top:50px;
+  padding-bottom:30px;
+  color:#89CFF0;
+  font-weight: bold;
+  width:max-content;
+  text-align: center;
+}
 .videoButton{
   width: fit-content;
-  background-color: #00ff0d1a;
-  border-color: #00FF0C;
-  color: #00FF0C;
+  background-color: #89CFF0;
+  border-color: #89CFF0;
+  color: White;
   display: flex;
+  font-weight: 500;
   justify-content: center;
   padding-right:10px;
   border-radius: 25px;
 }
+.austonautRocket{
+  margin: auto;
+  -webkit-animation: racing 8s ease-out infinite normal;
+  animation: racing 8s ease-out infinite normal;
+  -webkit-font-smoothing: antialiased;
+}
+.astronautGif{
+  margin: auto;
+  -webkit-animation: breathing 8s ease-out infinite normal;
+  animation: breathing 8s ease-out infinite normal;
+  -webkit-font-smoothing: antialiased;
+  width: 80px; 
+}
 
+@-webkit-keyframes racing {
+  0% {
+    margin-right: 0;
+  }
+  100% {
+    margin-right: 100%;
+  }
+}
+
+@keyframes racing {
+  0% {
+    margin-right: 0;
+  }
+  100% {
+    margin-right: 100%;
+  }
+}
+@-webkit-keyframes breathing {
+  0% {
+    -webkit-transform: scale(1.6);
+    transform: scale(1.6);
+    margin-top: 0%;
+    margin-left: 0;
+  }
+
+  98% {
+    -webkit-transform: scale(5);
+    transform: scale(5);
+    margin-top: 100%;
+    margin-left: 80%;
+  }
+
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    margin-top: 120%;
+    margin-left: 150%;
+  }
+}
+
+@keyframes breathing {
+  0% {
+    -webkit-transform: scale(1.6);
+    -ms-transform: scale(1.6);
+    transform: scale(1.5);
+    margin-top: 0%;
+    margin-left: 0;
+  }
+
+  98% {
+    -webkit-transform: scale(5);
+    -ms-transform: scale(5);
+    transform: scale(5);
+    margin-top: 120%;
+    margin-left: 80%;
+  }
+
+  100% {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    margin-top: 130%;
+    margin-left: 100%;
+  }
+}
+.bannerMainDiv{
+  width: 60%;
+  position: absolute;
+  top:50%;
+  left:0%;
+  transform: translate(0%, -50%);
+}
+.bannerAstronaut{
+  width: 40%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
 .videoButton:hover{
   border: 2px solid;
 } 
 .introCenterMainDiv{
   position: absolute;
   display: flex;
-  width:800px;
+  width:70%;
   color:#89CFF0;
   margin: auto;
   top: 50%;
@@ -33,29 +154,99 @@
   width:80%;
   margin:auto;
 }
-.projectsLaptops{
-  display:flex;
+.instagramInnerContainer{
   width:80%;
   margin:auto;
-  position:relative;
+  display: flex;
+  flex-wrap: wrap;
 }
-.projectsBackgroundLaptop{
-  width:40%;
+.instagramPost{
+  width:30%;
+  margin:auto;
+  height:250px;
+  margin-top:20px;
 }
-.projectsForegroundLaptopMain{
-  width:20%;
-  position:relative;
+.instagramPostPictureMain{
+  overflow: hidden;
+  border-radius: 5px;
+  position: relative;
+  height: 200px;
 }
-.projectsForegroundLaptop{
-  position:absolute;
-  width:100%;
-  bottom:0;
-  top:0;
+.instagramPostImageDescriptionMain{
+  cursor: pointer;
+  width: 100%;
+  position: absolute;
+  top:50%;
+  height: 200px;
+  color: white;
+  transform: translate(0, -50%);
+  margin: auto;
+  z-index:2;
+  background-color: rgb(0 0 0 / 78%);
+  opacity: 0;
+}
 
+.instagramPostPictureMain :hover{
+  opacity: 1;
+}
+.instagramPostImageDescription{
+  position: absolute;
+  width: 80%;
+  margin-left:10%;
+  top:50%;
+  transform: translate(0, -50%);
+  color: white;
+
+}
+.instagramPostPicture{
+  height: -webkit-fill-available;
+  width:100%;
+}
+.instagramCaption{
+  color: white;
+  padding: 5px 0;
+  width: fit-content;
+  font-weight: 600;
+  margin: auto;
+}
+.instagramSectionLogo{
+  width:60px;
+  margin-left:10px;
+  cursor:pointer;
+}
+.githubSectionLogo{
+  width:60px;
+  height:60px;
+  margin-left:10px;
+  cursor:pointer;
+}
+.footerMain{
+  height: 400px;
+}
+.projectsLaptops{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width:80%;
+  margin-left:auto;
+  margin-right:auto;
+}
+.projectsGif{
+  width: 40%;
+  padding: 20px 20px;
+}
+.projectImage{
+  height:100%;
+  border-radius: 10px;
+  -webkit-box-shadow: 6px 2px 30px 7px rgba(0,0,0,0.75);
+  -moz-box-shadow: 6px 2px 30px 7px rgba(0,0,0,0.75);
+  box-shadow: 6px 2px 30px 7px rgba(0,0,0,0.75);
+  object-fit: cover;
 }
 .experienceTitle{
   display: flex;
   font-size: 50px;
+  padding-top:50px;
   padding-bottom:30px;
   color:#89CFF0;
   font-weight: bold;
@@ -89,6 +280,7 @@
   font-weight: bold;
 }
 .introSecondLine{
+  color: white;
   display:flex;
   justify-content: space-around;
   text-align: justify;
@@ -102,16 +294,43 @@
 .introAvatarMain{
   position:relative;
   margin-left:auto;
-  width:300px;
+  width:250px;
   height:100%;
 }
 .introAvatarCircle{
   position: absolute;
   top:-80px;
   left:0;
-  height:200px;
-  width:200px;
-  background-color: rgb(57, 130, 159);
+  height:250px;
+  width:250px;
+  background-color: #89CFF0;
+  border-radius: 100%;
+}
+.contactAvatarCircle{
+  position: relative;
+  height:250px;
+  width:250px;
+  background-color: #89CFF0;
+  border-radius: 100%;
+}
+.introCenter{
+  width: 70%;
+}
+.contactAvatarPicture{
+  position:absolute;
+  margin-left:10px;
+  margin-top:10px;
+  height:230px;
+  width:230px;
+  object-fit: cover;
+  border-radius: 100%;
+}
+.avatarPicture{
+  margin-left:10px;
+  margin-top:15px;
+  height:230px;
+  width:230px;
+  object-fit: cover;
   border-radius: 100%;
 }
 .languagesIcon{

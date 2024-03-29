@@ -21,7 +21,7 @@ const ExperienceForm = ({
                 <div className={style.flipCardBack}>
                     <ul>
                         {description.map((text) => {
-                            return <li>{text}</li>
+                            return <li key={text}>{text}</li>
                         })
                         }
                     </ul>

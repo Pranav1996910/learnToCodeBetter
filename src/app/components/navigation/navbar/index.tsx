@@ -17,7 +17,7 @@ const Navbar = ({
         <div className="container mx-auto px-4 h-full">
           <div className="flex justify-between items-center h-full">
             <Logo />
-            <ul className={styles.navLinkContainer}>
+            {/* <ul className={styles.navLinkContainer}>
               <li>
                 <Link href={"/#aboutMe"}>
                   <p className={styles.navLink}>About us</p>
@@ -47,7 +47,7 @@ const Navbar = ({
               &&
               <div className={styles.authenticationButtons}>
               </div>
-            }
+            } */}
 
             <button type="button" className={styles.burgerMenu}
               onClick={toggle}>

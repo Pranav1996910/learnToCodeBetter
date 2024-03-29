@@ -1,5 +1,4 @@
 "use client";
-import Image from "next/image";
 import { useEffect, useState } from "react";
 import Link from "next/link";
 import Button from "./Button";
@@ -36,7 +35,7 @@ const Logo = () => {
   return (
     <>
       <Link href="/" style={{ display: showButton ? "none" : "block" }}>
-        <Image
+        <img
           src="/images/logo-white.png"
           alt="Logo"
           width="150"
