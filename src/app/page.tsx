@@ -112,33 +112,35 @@ export default function Page() {
                   justifyContent: 'center',
                 }}>
                 <div className={pStyles.introCenterMainDiv}>
-                  <div className={pStyles.introCenter}>
-                    <p className={pStyles.introFirstLine}>Hi, I’m Pranav <img className={pStyles.wavingIcon} title="Hello" alt="hello" src='/images/icons/waving.gif'></img></p>
-                    <div>
-                      <p id="introText" className={pStyles.introSecondLine}>Full-stack developer with a passion for programming and a flair for teaching. Transforming difficult ideas into clear and practical insights with 5 years of experience in</p>
-                      <div className={pStyles.iconsMain}>
-                        <a href="https://www.typescriptlang.org/" target="_blank" rel="noopener noreferrer"><img className={pStyles.languagesIcon} title="typescript" alt="typescript" src='/images/icons/typescript.png'></img></a>
-                        <a href="https://www.javascript.com/" target="_blank" rel="noopener noreferrer"><img className={pStyles.languagesIcon} title="javascript" alt="javascript" src='/images/icons/java-script.png'></img></a>
-                        <a href="https://www.python.org/" target="_blank" rel="noopener noreferrer"><img className={pStyles.languagesIcon} title="python" alt="python" src='/images/icons/python.png'></img></a>
-                        <a href="https://dotnet.microsoft.com/en-us/languages/csharp" target="_blank" rel="noopener noreferrer"><img className={pStyles.languagesIcon} title="csharp" alt="csharp" src='/images/icons/c-sharp.png'></img></a>
-                        <a href="https://www.mysql.com/" target="_blank" rel="noopener noreferrer"><img className={pStyles.languagesIcon} title="mysql" alt="mysql" src='/images/icons/mysql.png'></img></a>
-                        <a href="https://html.com/html5/" target="_blank" rel="noopener noreferrer"><img className={pStyles.languagesIcon} title="html" alt="html" src='/images/icons/html-5.png'></img></a>
-                        <a href="https://www.w3.org/Style/CSS/Overview.en.html" target="_blank" rel="noopener noreferrer"><img className={pStyles.languagesIcon} title="css" alt="css" src='/images/icons/css-3.png'></img></a>
-                      </div>
-                      <div className={pStyles.iconsMain}>
-                        <a href="https://react.dev/" target="_blank" rel="noopener noreferrer"><img className={pStyles.languagesIcon} title="react" alt="react" src='/images/icons/react.png'></img></a>
-                        <a href="https://nextjs.org/" target="_blank" rel="noopener noreferrer"><img className={pStyles.languagesIcon} title="nextjs" alt="next js" src='/images/icons/nextjs.png'></img></a>
-                        <a href="https://vuejs.org/" target="_blank" rel="noopener noreferrer"><img className={pStyles.languagesIcon} title="vuejs" alt="vue js" src='/images/icons/vuejs.png'></img></a>
-                        <a href="https://angular.io/" target="_blank" rel="noopener noreferrer"><img className={pStyles.languagesIcon} title="angular" alt="angular" src='/images/icons/angular.svg'></img></a>
-                        <a href="https://nodejs.org/en" target="_blank" rel="noopener noreferrer"><img className={pStyles.languagesIcon} title="nodejs" alt="node js" src='/images/icons/nodejs.svg'></img></a>
-                        <a href="https://www.postgresql.org/" target="_blank" rel="noopener noreferrer"><img className={pStyles.languagesIcon} title="postgres" alt="postgres" src='/images/icons/postgres.png'></img></a>
-                        <a href="https://www.mongodb.com/" target="_blank" rel="noopener noreferrer"><img className={pStyles.languagesIcon} title="mongodb" alt="mongodb" src='/images/icons/mongodb.png'></img></a>
+                  <div className={pStyles.introCenterInnerDiv}>
+                    <div className={pStyles.introCenter}>
+                      <p className={pStyles.introFirstLine}>Hi, I’m Pranav <img className={pStyles.wavingIcon} title="Hello" alt="hello" src='/images/icons/waving.gif'></img></p>
+                      <div>
+                        <p id="introText" className={pStyles.introSecondLine}>Full-stack developer with a passion for programming and a flair for teaching. Transforming difficult ideas into clear and practical insights with 5 years of experience in</p>
+                        <div className={pStyles.iconsMain}>
+                          <a href="https://www.typescriptlang.org/" target="_blank" rel="noopener noreferrer"><img className={pStyles.languagesIcon} title="typescript" alt="typescript" src='/images/icons/typescript.png'></img></a>
+                          <a href="https://www.javascript.com/" target="_blank" rel="noopener noreferrer"><img className={pStyles.languagesIcon} title="javascript" alt="javascript" src='/images/icons/java-script.png'></img></a>
+                          <a href="https://www.python.org/" target="_blank" rel="noopener noreferrer"><img className={pStyles.languagesIcon} title="python" alt="python" src='/images/icons/python.png'></img></a>
+                          <a href="https://dotnet.microsoft.com/en-us/languages/csharp" target="_blank" rel="noopener noreferrer"><img className={pStyles.languagesIcon} title="csharp" alt="csharp" src='/images/icons/c-sharp.png'></img></a>
+                          <a href="https://www.mysql.com/" target="_blank" rel="noopener noreferrer"><img className={pStyles.languagesIcon} title="mysql" alt="mysql" src='/images/icons/mysql.png'></img></a>
+                          <a href="https://html.com/html5/" target="_blank" rel="noopener noreferrer"><img className={pStyles.languagesIcon} title="html" alt="html" src='/images/icons/html-5.png'></img></a>
+                          <a href="https://www.w3.org/Style/CSS/Overview.en.html" target="_blank" rel="noopener noreferrer"><img className={pStyles.languagesIcon} title="css" alt="css" src='/images/icons/css-3.png'></img></a>
+                        </div>
+                        <div className={pStyles.iconsMain}>
+                          <a href="https://react.dev/" target="_blank" rel="noopener noreferrer"><img className={pStyles.languagesIcon} title="react" alt="react" src='/images/icons/react.png'></img></a>
+                          <a href="https://nextjs.org/" target="_blank" rel="noopener noreferrer"><img className={pStyles.languagesIcon} title="nextjs" alt="next js" src='/images/icons/nextjs.png'></img></a>
+                          <a href="https://vuejs.org/" target="_blank" rel="noopener noreferrer"><img className={pStyles.languagesIcon} title="vuejs" alt="vue js" src='/images/icons/vuejs.png'></img></a>
+                          <a href="https://angular.io/" target="_blank" rel="noopener noreferrer"><img className={pStyles.languagesIcon} title="angular" alt="angular" src='/images/icons/angular.svg'></img></a>
+                          <a href="https://nodejs.org/en" target="_blank" rel="noopener noreferrer"><img className={pStyles.languagesIcon} title="nodejs" alt="node js" src='/images/icons/nodejs.svg'></img></a>
+                          <a href="https://www.postgresql.org/" target="_blank" rel="noopener noreferrer"><img className={pStyles.languagesIcon} title="postgres" alt="postgres" src='/images/icons/postgres.png'></img></a>
+                          <a href="https://www.mongodb.com/" target="_blank" rel="noopener noreferrer"><img className={pStyles.languagesIcon} title="mongodb" alt="mongodb" src='/images/icons/mongodb.png'></img></a>
+                        </div>
                       </div>
                     </div>
-                  </div>
-                  <div className={pStyles.introAvatarMain}>
-                    <div className={pStyles.introAvatarCircle}>
-                      <img className={pStyles.avatarPicture} src="/images/profile.png" />
+                    <div className={pStyles.introAvatarMain}>
+                      <div className={pStyles.introAvatarCircle}>
+                        <img className={pStyles.avatarPicture} src="/images/profile.png" />
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -150,32 +152,34 @@ export default function Page() {
                 style={{
                   alignItems: 'center',
                 }}>
-                <div className={pStyles.experienceTitle}> Professional Experience </div>
-                <div className={pStyles.experienceMain}>
-                  <div className={pStyles.experience1}>
-                    <a href="http://www.zalando.de/" target="_blank" rel="noopener noreferrer">
-                      <ExperienceForm designation="Software Engineer" imageSrc="/images/icons/Zalando.png" description={infosysDescription} />
-                    </a>
-                  </div>
-                  <div className={pStyles.experience2}>
-                    <a href="https://www.sap.com/" target="_blank" rel="noopener noreferrer">
-                      <ExperienceForm designation="Intern" imageSrc="/images/icons/sap.svg" description={infosysDescription} />
-                    </a>
-                  </div>
-                  <div className={pStyles.experience3}>
-                    <a href="https://leomax.de/" target="_blank" rel="noopener noreferrer">
-                      <ExperienceForm designation="Working Student" imageSrc="/images/icons/leomax.svg" description={infosysDescription} />
-                    </a>
-                  </div>
-                  <div className={pStyles.experience4}>
-                    <a href="https://luxeveda.com/" target="_blank" rel="noopener noreferrer">
-                      <ExperienceForm designation="Senior Web developer" imageSrc="/images/icons/luxeveda.png" description={infosysDescription} />
-                    </a>
-                  </div>
-                  <div className={pStyles.experience5}>
-                    <a href="https://www.infosys.com/" target="_blank" rel="noopener noreferrer">
-                      <ExperienceForm designation="Systems Engineer" imageSrc="/images/icons/infosys.png" description={infosysDescription} />
-                    </a>
+                <div className={pStyles.experienceMainDiv}>
+                  <div className={pStyles.experienceTitle}> Professional Experience </div>
+                  <div className={pStyles.experienceMain}>
+                    <div className={pStyles.experience1}>
+                      <a href="http://www.zalando.de/" target="_blank" rel="noopener noreferrer">
+                        <ExperienceForm designation="Software Engineer" imageSrc="/images/icons/Zalando.png" description={infosysDescription} />
+                      </a>
+                    </div>
+                    <div className={pStyles.experience2}>
+                      <a href="https://www.sap.com/" target="_blank" rel="noopener noreferrer">
+                        <ExperienceForm designation="Intern" imageSrc="/images/icons/sap.svg" description={infosysDescription} />
+                      </a>
+                    </div>
+                    <div className={pStyles.experience3}>
+                      <a href="https://leomax.de/" target="_blank" rel="noopener noreferrer">
+                        <ExperienceForm designation="Working Student" imageSrc="/images/icons/leomax.svg" description={infosysDescription} />
+                      </a>
+                    </div>
+                    <div className={pStyles.experience4}>
+                      <a href="https://luxeveda.com/" target="_blank" rel="noopener noreferrer">
+                        <ExperienceForm designation="Senior Web developer" imageSrc="/images/icons/luxeveda.png" description={infosysDescription} />
+                      </a>
+                    </div>
+                    <div className={pStyles.experience5}>
+                      <a href="https://www.infosys.com/" target="_blank" rel="noopener noreferrer">
+                        <ExperienceForm designation="Systems Engineer" imageSrc="/images/icons/infosys.png" description={infosysDescription} />
+                      </a>
+                    </div>
                   </div>
                 </div>
               </ParallaxLayer>
@@ -185,7 +189,7 @@ export default function Page() {
                 speed={0.5}
                 onClick={() => parallax.current.scrollTo(4)}
               >
-                <div>
+                <div className={pStyles.projectsMainDiv}>
                   <div className={pStyles.experienceTitle}>
                     My Projects
                     <a href="https://github.com/PranavJ96" target="_blank" rel="noopener noreferrer">
@@ -212,7 +216,7 @@ export default function Page() {
                 style={{
                   alignItems: 'center',
                 }}>
-                <div>
+                <div className={pStyles.instagramMainDiv}>
                   <div className={pStyles.experienceTitle}>
                     Follow me on Instagram
                     <a href="https://www.instagram.com/learntocodebetter101/" target="_blank" rel="noopener noreferrer">

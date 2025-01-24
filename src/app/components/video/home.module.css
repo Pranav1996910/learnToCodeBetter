@@ -28,13 +28,10 @@
   width:150px;
 }
 
-
 @media (max-width: 900px) {
   .videoButton{
     width:120px;
-  }
-  .videoButton{
-    bottom:28%;
+    bottom: 5%;
   }
   .videoContainer{
     height:450px;

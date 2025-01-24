@@ -69,3 +69,27 @@
   color: white;
   transform: rotateY(180deg);
 }
+
+@media (max-width: 900px) {
+  .flipCard {
+    background-color: transparent;
+    width: 150px;
+    margin:auto;
+    height: 70px;
+    cursor: pointer;
+  }
+  .logoDiv{
+    position:relative;
+    height:50px;
+    width:80%;
+    margin:auto;
+  }
+  
+  .arrowIcon {
+    font-size:0px;
+  }
+  
+  .designation {
+    font-size: 0px;
+  }
+}
