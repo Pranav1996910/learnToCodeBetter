@@ -70,6 +70,19 @@
   transform: rotateY(180deg);
 }
 
+.flipCardJobTitle{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  text-align: center;
+}
+
+.flipCardJobTitleItem{
+  line-height: 150px;
+  font-size: 25px;
+  height: 100%;
+}
+
 @media (max-width: 900px) {
   .flipCard {
     background-color: transparent;
@@ -92,4 +105,5 @@
   .designation {
     font-size: 0px;
   }
+
 }

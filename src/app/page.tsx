@@ -13,7 +13,11 @@ const url = (name: string, wrap = false) =>
 
 export default function Page() {
   const parallax = useRef<IParallax>(null!);
-  const infosysDescription = ["seffsefsef esf se fsef", "sefsesef sef se fse ff", " sef se fse fse fse f"];
+  const zalandoDescription = ["Software Engineer"];
+  const sapDescription = ["Intern"];
+  const leomaxDescription = ["Working Student"];
+  const luxevedaDescription = ["Web Developer"];
+  const infosysDescription = ["Systems Engineer"];
   return (
     <>
       <div>
@@ -157,22 +161,22 @@ export default function Page() {
                   <div className={pStyles.experienceMain}>
                     <div className={pStyles.experience1}>
                       <a href="http://www.zalando.de/" target="_blank" rel="noopener noreferrer">
-                        <ExperienceForm designation="Software Engineer" imageSrc="/images/icons/Zalando.png" description={infosysDescription} />
+                        <ExperienceForm designation="Software Engineer" imageSrc="/images/icons/Zalando.png" description={zalandoDescription} />
                       </a>
                     </div>
                     <div className={pStyles.experience2}>
                       <a href="https://www.sap.com/" target="_blank" rel="noopener noreferrer">
-                        <ExperienceForm designation="Intern" imageSrc="/images/icons/sap.svg" description={infosysDescription} />
+                        <ExperienceForm designation="Intern" imageSrc="/images/icons/sap.svg" description={sapDescription} />
                       </a>
                     </div>
                     <div className={pStyles.experience3}>
                       <a href="https://leomax.de/" target="_blank" rel="noopener noreferrer">
-                        <ExperienceForm designation="Working Student" imageSrc="/images/icons/leomax.svg" description={infosysDescription} />
+                        <ExperienceForm designation="Working Student" imageSrc="/images/icons/leomax.svg" description={leomaxDescription} />
                       </a>
                     </div>
                     <div className={pStyles.experience4}>
                       <a href="https://luxeveda.com/" target="_blank" rel="noopener noreferrer">
-                        <ExperienceForm designation="Senior Web developer" imageSrc="/images/icons/luxeveda.png" description={infosysDescription} />
+                        <ExperienceForm designation="Senior Web developer" imageSrc="/images/icons/luxeveda.png" description={luxevedaDescription} />
                       </a>
                     </div>
                     <div className={pStyles.experience5}>
@@ -229,12 +233,11 @@ export default function Page() {
                         <img className={pStyles.instagramPostPicture} alt="instagram post1" width={100} height={100} src="/images/instagram/1.png" />
                         <div className={pStyles.instagramPostImageDescriptionMain}>
                           <div className={pStyles.instagramPostImageDescription}>
-                            Some text here, explaining what is happening in the code will come here.
                           </div>
                         </div>
                       </div>
                       <div className={pStyles.instagramCaption}>
-                        Some dummy text here
+                        Promise
                       </div>
                     </div>
                     <div className={pStyles.instagramPost}>
@@ -242,12 +245,11 @@ export default function Page() {
                         <img className={pStyles.instagramPostPicture} alt="instagram post1" width={100} height={100} src="/images/instagram/2.png" />
                         <div className={pStyles.instagramPostImageDescriptionMain}>
                           <div className={pStyles.instagramPostImageDescription}>
-                            Some text here, explaining what is happening in the code will come here.
                           </div>
                         </div>
                       </div>
                       <div className={pStyles.instagramCaption}>
-                        Some dummy text here
+                        SetTimeout
                       </div>
                     </div>
                     <div className={pStyles.instagramPost}>
@@ -255,12 +257,11 @@ export default function Page() {
                         <img className={pStyles.instagramPostPicture} alt="instagram post1" width={100} height={100} src="/images/instagram/3.png" />
                         <div className={pStyles.instagramPostImageDescriptionMain}>
                           <div className={pStyles.instagramPostImageDescription}>
-                            Some text here, explaining what is happening in the code will come here.
                           </div>
                         </div>
                       </div>
                       <div className={pStyles.instagramCaption}>
-                        Some dummy text here
+                        const
                       </div>
                     </div>
                     <div className={pStyles.instagramPost}>
@@ -268,12 +269,11 @@ export default function Page() {
                         <img className={pStyles.instagramPostPicture} alt="instagram post1" width={100} height={100} src="/images/instagram/4.png" />
                         <div className={pStyles.instagramPostImageDescriptionMain}>
                           <div className={pStyles.instagramPostImageDescription}>
-                            Some text here, explaining what is happening in the code will come here.
                           </div>
                         </div>
                       </div>
                       <div className={pStyles.instagramCaption}>
-                        Some dummy text here
+                        var 
                       </div>
                     </div>
                     <div className={pStyles.instagramPost}>
@@ -281,12 +281,11 @@ export default function Page() {
                         <img className={pStyles.instagramPostPicture} alt="instagram post1" width={100} height={100} src="/images/instagram/5.png" />
                         <div className={pStyles.instagramPostImageDescriptionMain}>
                           <div className={pStyles.instagramPostImageDescription}>
-                            Some text here, explaining what is happening in the code will come here.
                           </div>
                         </div>
                       </div>
                       <div className={pStyles.instagramCaption}>
-                        Some dummy text here
+                        let
                       </div>
                     </div>
                     <div className={pStyles.instagramPost}>
@@ -294,12 +293,11 @@ export default function Page() {
                         <img className={pStyles.instagramPostPicture} alt="instagram post1" width={100} height={100} src="/images/instagram/7.png" />
                         <div className={pStyles.instagramPostImageDescriptionMain}>
                           <div className={pStyles.instagramPostImageDescription}>
-                            Some text here, explaining what is happening in the code will come here.
                           </div>
                         </div>
                       </div>
                       <div className={pStyles.instagramCaption}>
-                        Some dummy text here
+                        Comparing objects
                       </div>
                     </div>
                   </div>

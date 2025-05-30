@@ -19,9 +19,9 @@ const ExperienceForm = ({
                     <p className={style.arrowIcon}>-&gt;</p>
                 </div>
                 <div className={style.flipCardBack}>
-                    <ul>
+                    <ul className={style.flipCardJobTitle}>
                         {description.map((text) => {
-                            return <li key={text}>{text}</li>
+                            return <li className={style.flipCardJobTitleItem} key={text}>{text}</li>
                         })
                         }
                     </ul>
