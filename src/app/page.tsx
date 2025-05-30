@@ -92,7 +92,7 @@ export default function Page() {
                     <div className={pStyles.introSecondLine}>
                       Master programming languages and development frameworks with hands-on projects in small groups. Learn best practices throughout our courses for practical and industry-relevant skills.
                     </div>
-                    <Link href="/courses">
+                    <Link href="/">
                       <button className={pStyles.coursesButton}>View Courses</button>
                     </Link>
                   </div>
@@ -181,7 +181,7 @@ export default function Page() {
                     </div>
                     <div className={pStyles.experience5}>
                       <a href="https://www.infosys.com/" target="_blank" rel="noopener noreferrer">
-                        <ExperienceForm designation="Systems Engineer" imageSrc="/images/icons/infosys.png" description={infosysDescription} />
+                        <ExperienceForm designation="Systems Engineer" imageSrc="/images/icons/Infosys.svg.png" description={infosysDescription} />
                       </a>
                     </div>
                   </div>
@@ -273,7 +273,7 @@ export default function Page() {
                         </div>
                       </div>
                       <div className={pStyles.instagramCaption}>
-                        var 
+                        var
                       </div>
                     </div>
                     <div className={pStyles.instagramPost}>
